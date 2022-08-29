@@ -5,3 +5,4 @@ module.exports=(app)=>{
         res.render("index.ejs")
     })
 }
+
