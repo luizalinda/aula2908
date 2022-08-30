@@ -6,7 +6,7 @@ const cluster = 'fiaptecnico.0ptot.mongodb.net'
 const db = 'html5up'
 
 const conexao = async()=>{
-    const atlas = await mongoose.connect('mongodb+srv:>//'+user+':'+pw+'@'+cluster+'/'+db)
+    const atlas = await mongoose.connect('mongodb+srv://'+user+':'+pw+'@'+cluster+'/'+db)
 } 
 
 const modelo = mongoose.Schema({
